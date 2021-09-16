@@ -10,7 +10,7 @@ import math
 import random
 from async_timeout import timeout
 
-token="ODg3OTgyNDY1NTc3MjYzMTE0.YUMEHQ.JNznFUefrFXKAm71YnS9ZX-3hvE"
+token="token_here"
 
 prefix='sf.'
 
