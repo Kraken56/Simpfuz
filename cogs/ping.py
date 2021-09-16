@@ -7,11 +7,8 @@ class ping(commands.Cog):
 
         @syfuz.command()
         async def ping(ctx):
-            
-            embed=discord.Embed()
-            embed.set_thumbnail(url="https://raw.githubusercontent.com/Kraken56/Simpfuz/master/assets/processing.gif")
-            embed.add_field(name="Ping", value=f"{round(syfuz.latency * 1000)} ms", inline=True)
-            await ctx.send(embed=embed)
+          await ctx.send(f':signal_strength: {round(syfuz.latency * 1000)} ms')
+
 
 def setup(syfuz):
     syfuz.add_cog(ping(syfuz))
